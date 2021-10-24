@@ -1,0 +1,101 @@
+##########################
+objectCode: 1001
+name: Potion
+otherNames: Health Potion/
+lookMessage: A potion with a curious red colour.
+reusable: 0
+##########################
+objectCode: 1002
+name: Sword
+otherNames: Dagger/Blade/Saber
+lookMessage: A simple steel sword favored by knights.
+reusable: 1
+##########################
+objectCode: 2201
+name: Fairy
+otherNames: Pixie/
+lookMessage: A Fairy.
+container: 1001
+triggerItem: 1002
+eventBeginMessage: The fairy is hurt and needs healing.
+eventEndMessage: You give the health potion to the fairy, and it rewards your kindness.
+solved: 0
+##########################
+objectCode: 3011
+name: Desert
+otherNames: /
+lookMessage: An endless empty desert stretching into the horizon.
+Xcoord: 1
+Ycoord: 1
+beenHereBefore: 1
+container: 1001 1002
+itemToEnter: 1001
+locked: 0
+npc: 2201
+lockedMessage: Locked.
+##########################
+objectCode: 3012
+name: Forest
+otherNames: Woods/
+lookMessage: An old forest of dense trees.
+Xcoord: 1
+Ycoord: 2
+beenHereBefore: 0
+container: 1001 1002
+itemToEnter: 1001
+locked: 0
+npc: 2201
+lockedMessage: Locked.
+##########################
+objectCode: 3013
+name: Castle
+otherNames: /
+lookMessage: A large castle.
+Xcoord: 1
+Ycoord: 3
+beenHereBefore: 0
+container: 1001 1002
+itemToEnter: 1001
+locked: 0
+npc: 2201
+lockedMessage: Locked.
+##########################
+objectCode: 3021
+name: Lake
+otherNames: Pond/
+lookMessage: Lake-shaped.
+Xcoord: 2
+Ycoord: 1
+beenHereBefore: 1
+container: 1001 1002
+itemToEnter: 1001
+locked: 0
+npc: 2201
+lockedMessage: Locked.
+##########################
+objectCode: 3001
+name: Bog
+otherNames: /
+lookMessage: Stinks.
+Xcoord: 0
+Ycoord: 1
+beenHereBefore: 0
+container: 1001 1002
+itemToEnter: 1001
+locked: 0
+npc: 2201
+lockedMessage: Locked.
+##########################
+objectCode: 3010
+name: Room
+otherNames: /
+lookMessage: Nice and cozy.
+Xcoord: 1
+Ycoord: 0
+beenHereBefore: 1
+container: 1001 1002
+itemToEnter: 1001
+locked: 0
+npc: 2201
+lockedMessage: Locked.
+

@@ -1,0 +1,159 @@
+##########################
+objectCode: 1000
+name: null object
+otherNames: /
+lookMessage: You somehow break reality and find the null object. It is incomprehensible.
+reusable: 0
+##########################
+objectCode: 1001
+name: locket
+otherNames: /
+lookMessage: A small locket on a fine, silver chain. Though the picture inside has long been lost to time, the silver body still miraculously shines.
+reusable: 0
+##########################
+objectCode: 1002
+name: key
+otherNames: bronze key/
+lookMessage: It is a small bronze key.
+reusable: 0
+##########################
+objectCode: 1003
+name: coin
+otherNames:  silver coin/
+lookMessage: You hold the coin, examining both sides. On one side there is a crown.
+reusable: 0
+##########################
+objectCode: 1004
+name: potion
+otherNames: health potion/
+lookMessage: It is a potion with a curious red colour.
+reusable: 0
+##########################
+objectCode: 1005
+name: magic gem
+otherNames: gem/
+lookMessage: It is a potion with a curious red colour.
+reusable: 0
+##########################
+objectCode: 2201
+name: crab
+otherNames: /
+lookMessage: crab message
+container: 1000
+triggerItem: 1000
+eventBeginMessage: crab message
+eventEndMessage: crab message
+solved: 0
+##########################
+objectCode: 2202
+name: crow
+otherNames: raven/bird/
+lookMessage: You look up at the bird, as it stares down curiously at you. At first glance it looks like any ordinary crow, but you notice that it is holding a small key in its beak. I guess it likes to collect things.
+container: 1002
+triggerItem: 1001
+eventBeginMessage: Perched upon one of the many branches is a CROW. It watches you from above.
+eventEndMessage: You place the locket on the ground and step backward. After a while, the crow flies down to inspect its irresistable lustre. Apparently unable to carry both items at the same time, the crow drops the key and takes off with the locket. It flies away into the thick forest canopy.
+solved: 0
+##########################
+objectCode: 2203
+name: gate
+otherNames: /
+lookMessage: gate message.
+container: 1000
+triggerItem: 1002
+eventBeginMessage: gate message
+eventEndMessage: gate message
+solved: 0
+##########################
+objectCode: 2204
+name: shop
+otherNames: shopkeep/shopkeeper/store/
+lookMessage: shop message
+container: 1004
+triggerItem: 1003
+eventBeginMessage: gate message
+eventEndMessage: gate message
+solved: 0
+##########################
+objectCode: 2205
+name: fairy
+otherNames: pixie/
+lookMessage: The fairy appears to be in pain.
+container: 1005
+triggerItem: 1004
+eventBeginMessage: In the field, you find a FAIRY.
+eventEndMessage: You give the health potion to the fairy, and it heals instantly. Before spritely flying away, it leaves behind a peculiar gem as a token of its appreciation.
+solved: 0
+##########################
+objectCode: 3001
+name: beach
+otherNames:  /
+lookMessage: You find yourself on the beach of an unfamiliar island. To the north, there is a path leading into a thick forest.
+Xcoord: 0
+Ycoord: 0
+beenHereBefore: 1
+container: 1001
+itemToEnter: 1000
+locked: 0
+npc: 2201
+lockedMessage: You try to enter, but it appears locked.
+##########################
+objectCode: 3002
+name: forest
+otherNames:  woods/
+lookMessage: An endless empty desert stretching into the horizon.
+Xcoord: 0
+Ycoord: 1
+beenHereBefore: 0
+container: 1000
+itemToEnter: 1001
+locked: 0
+npc: 2234
+lockedMessage: You try to enter, but it appears locked.
+##########################
+objectCode: 3003
+name: gate
+otherNames:  /
+lookMessage: An endless empty desert stretching into the horizon.
+Xcoord: 1
+Ycoord: 1
+beenHereBefore: 0
+container: 1000
+itemToEnter: 1001
+locked: 0
+npc: 2234
+lockedMessage: You try to enter, but it appears locked.
+##########################
+objectCode: 3004
+name: marketplace
+otherNames:  /
+lookMessage: An endless empty desert stretching into the horizon.
+Xcoord: 2
+Ycoord: 1
+beenHereBefore: 0
+container: 1000
+itemToEnter: 1001
+locked: 0
+npc: 2234
+lockedMessage: You try to enter, but it appears locked.
+##########################
+objectCode: 3005
+name: field
+otherNames: flower field/meadow/pasture/
+lookMessage: An endless empty desert stretching into the horizon.
+Xcoord: 0
+Ycoord: 2
+beenHereBefore: 0
+container: 1003
+itemToEnter: 1000
+locked: 0
+npc: 2234
+lockedMessage: You try to enter, but it appears locked.
+##########################
+objectCode: 2101
+name: me
+otherNames: player/myself/
+lookMessage: Itsa me!
+container: 1009
+currentLocation: 3001
+health: 5
